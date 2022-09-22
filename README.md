@@ -1,2 +1,4 @@
 # practice project
- a practice project from The Odin Project, an amazing for learning how to code.
+ a practice project from The Odin Project, an amazing resource for learning how to code.
+
+ 
