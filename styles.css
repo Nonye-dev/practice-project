@@ -9,6 +9,9 @@
 
 .container{
     background-color: #1F2937;
+    background-image:linear-gradient(rgba(92, 97, 100, 0.267)rgba(92, 97, 100, 0.267))url(main.bg.jpg);
+    background-position: center; 
+    background-size: cover;
     min-height: 80vh;
     padding-left: 5%;
     padding-right: 5%;
@@ -59,6 +62,8 @@ nav UL li::before{
     color: azure;
     font-weight: 700;
     font-size: 69px;
+    line-height: .9;
+    padding-bottom: 20px;
 }
 
 .header{
@@ -77,7 +82,8 @@ nav UL li::before{
     border-radius: 21px;
     background-color: transparent;
     font-weight: 500;
-    border: white solid 2px;
+    border: rgb(255, 255, 255) solid 2px;
+    font-size: 17px;
     
 
 }
@@ -111,39 +117,59 @@ nav UL li::before{
     background-color: rgb(255, 255, 255);
     box-shadow: 
         0px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    transition: background .4s;
 }
+.b1:hover{
+    background-color: #c2c6cc;
 
+}
 
 .b2{
     width: 200px;
     height: 200px;
-    border: 3px solid skyblue;
+    /*border: 3px solid skyblue;*/
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
     box-shadow: 
         0px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    transition: background .4s;
+}
+
+.b2:hover{
+    background-color: #c2c6cc;
 
 }
 
 .b3{
     width: 200px;
     height: 200px;
-    border: 3px solid skyblue;
+    /*border: 3px solid skyblue;*/
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
     box-shadow: 
         0px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    transition: background-color .4s;
+
+}
+
+ .b3:hover{
+    background-color: #c2c6cc;
 
 }
 
 .b4{
     width: 200px;
     height: 200px;
-    border: 3px solid skyblue;
+    /*border: 3px solid skyblue;*/
     border-radius: 24px;
     background-color: rgb(255, 255, 255);
     box-shadow: 
-        0px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    0px 12px 30px 3px rgba(16, 34, 34, 0.11);
+    transition: background .4s;
+}
+.b4:hover{
+    background: #c2c6cc;
+
 }
 
 .bt{
@@ -155,18 +181,17 @@ nav UL li::before{
 
 /* sticky button on the bottom right corner */
 .STICKY{
-    height: 150px;
-    width: 150px;
-    border: 2px solid white;
+    height: 100px;
+    width: 100px;
     border-radius: 20px 22px;
     position: fixed;
     color:rgb(255, 255, 255);
     text-align: center;
-    padding: 41PX;
-    background-color: rgb(62, 33, 66);
+    padding-top: 18px;
+    background-color: rgb(56, 87, 122);
     box-shadow:  0px 16px 30px 13px rgba(16, 34, 34, 0.11);
-    margin-top: 750px;
-    margin-left: 82%; 
+    margin-top: 800px;
+    margin-left: 86%; 
     z-index: 3;
 
 }
