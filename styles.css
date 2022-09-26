@@ -8,8 +8,8 @@
 }
 
 .container{
-    background-color: #1F2937;
-    background-image:linear-gradient(rgba(92, 97, 100, 0.267)rgba(92, 97, 100, 0.267))url(main.bg.jpg);
+    
+    background-image:linear-gradient(rgba(92, 97, 100, 0.267),rgba(92, 97, 100, 0.267)), url("main.bg.jpg");
     background-position: center; 
     background-size: cover;
     min-height: 80vh;
@@ -26,6 +26,7 @@
     align-items: center;
     padding: 22px 0px;
     color: azure;
+   
 }
 
 
@@ -84,9 +85,15 @@ nav UL li::before{
     font-weight: 500;
     border: rgb(255, 255, 255) solid 2px;
     font-size: 17px;
+    transition: all .4s ease-in;
     
 
 }
+.btn:hover{
+    letter-spacing: 1px;
+    background-color: #080b0f67;
+}
+
 
 .curves{
     display: flex;
@@ -199,6 +206,12 @@ nav UL li::before{
 .boxdiv{
     padding-left: 8%;
     padding-right: 8%;
+    
+}
+.boxdiv h1{
+    color: rgb(8, 10, 12);
+    margin-top: 2px;
+    padding-bottom: 44px;
 }
 
 
@@ -276,6 +289,10 @@ body{
 
 }
 
+.nav-links li{
+    font-weight: 700;
+    font-size: 19px;
+}
 
 
 
