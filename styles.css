@@ -16,10 +16,11 @@
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
-
+    max-width: 100%;
     
     
 }
+
 
 .navbar{
     display: flex;
@@ -49,12 +50,6 @@ nav{
   
 }
 
-nav UL li::before{
-    content: " ";
-    background-color: bisque;
-    border-radius: 24px;
-    color: #1F2937;
-}
 
 
 
@@ -198,7 +193,7 @@ nav UL li::before{
     background-color: rgb(56, 87, 122);
     box-shadow:  0px 16px 30px 13px rgba(16, 34, 34, 0.11);
     margin-top: 800px;
-    margin-left: 86%; 
+   
     z-index: 3;
 
 }
@@ -216,8 +211,7 @@ nav UL li::before{
 
 
 body{
-    background-color: bisque;
-    position: relative;
+  
 }
 
 
@@ -236,10 +230,10 @@ body{
 .grid-container{
     display: grid;
     grid-gap: 12px;
-    margin: 200px;
+    margin: 100px;
     grid-auto-columns: 1fr;
     grid-template-columns:repeat(4 1fr);
-    min-width: 600px;
+    min-width: 500px;
  
 
 }
@@ -310,3 +304,10 @@ transition: background 0.4s;
     cursor: pointer;
 }
 
+@media (min-width: 532px) {
+.curves{
+color: aquamarine;
+display: flex;
+flex-wrap: wrap;
+}
+}
